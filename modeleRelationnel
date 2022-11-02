@@ -1,0 +1,7 @@
+CAMPINGS (idCamping, nomCamping, villeCamping, nbEtoilesCamping)
+BUNGALOWS (idBungalow, nomBungalow, superficieBungalow, idCamping#)
+SERVICES (idService, nomService, categorieService)
+PROPOSER (idBungalow#, idService#)
+CLIENTS (idClient, nomClient, prenomClient, dateNaissanceClient, villeClient)
+LOCATIONS (idLocation, idClient#, idBungalow#, dateDebut, dateFin, montantLocation)
+EMPLOYES (idEmploye, nomEmploye, prenomEmploye, salaireEmploye, idCamping#, idEmployeChef#)
